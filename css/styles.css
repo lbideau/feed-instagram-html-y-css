@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    background-color: rgb(236, 241, 236);
+}
+.header{
+    margin: 0 auto;
+    width: 400px;
+    background-color: greenyellow;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.post{
+    margin: 0 auto;
+    width: 400px;
+    background-color: rgb(206, 206, 206);
+}
+.title-page{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.img-uno{
+    background-image: url(https://i.pinimg.com/originals/5a/84/e2/5a84e261a7f7535d9be59a8f95425c30.jpg);
+    width: 400px;
+    height: 400px;
+}
+.img-dos{
+    background-image: url(https://s-media-cache-ak0.pinimg.com/originals/c1/c2/df/c1c2df948bb88202c28de06e2b1edc66.jpg);
+    width: 400px;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+}
+.img-third{
+    background-image: url(https://www.puzzlesjunior.com/privados/cachorro-lobo-siberiano_51f153b01aeb2_img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: -50px;
+    width: 400px;
+    height: 400px;
+}
+.paragrapgh{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+}
